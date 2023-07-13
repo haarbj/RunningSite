@@ -1,8 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
  font-family: impact;
  color: #FFF;
-  font-size: 2em;
-  padding-top: 100px;
   width: 100%;
 }
 
@@ -21,14 +19,11 @@ h2 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.5);
   font-weight: 100;
-  font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
   text-align: left;
   width: 70%;
 }
 
-p {
+p, quote {
   color: aliceblue;
   line-height: 1.3em;
   text-align: left;
