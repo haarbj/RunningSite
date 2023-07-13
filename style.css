@@ -15,14 +15,6 @@ body {
   padding: 0;
 }
 
-h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 100;
-  text-align: left;
-  width: 70%;
-}
-
 p, blockquote, table, ul, ol {
   color: aliceblue;
   line-height: 1.3em;
