@@ -1,7 +1,8 @@
-h1, h2, h3, h4, h5, h6 {
+* {
  font-family: impact;
  color: #FFF;
   width: 100%;
+ text-align: left;
 }
 
 body {
@@ -15,11 +16,5 @@ body {
   padding: 0;
 }
 
-p, blockquote, table, ul, ol {
-  color: aliceblue;
-  line-height: 1.3em;
-  text-align: left;
-  width: 100%;
-}
 
 
