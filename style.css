@@ -23,7 +23,7 @@ h2 {
   width: 70%;
 }
 
-p, quote {
+p, blockquote {
   color: aliceblue;
   line-height: 1.3em;
   text-align: left;
