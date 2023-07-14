@@ -89,8 +89,20 @@ td {
 }
 
 /* Link Styles */
-a {
-  color: hsl(150 100% 50%);
+nav a {
+  background: hsl(210 100% 50%);
+  border: 1px solid hsl(210 100% 50%);
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+}
+
+nav a:hover {
+  background: white;
+  border: 1px solid hsl(210 100% 50%);
+  color: hsl(210 100% 50%);
 }
 
 /* Media section styles */
