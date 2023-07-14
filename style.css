@@ -93,9 +93,9 @@ a {
 }
 
 a:hover {
-  background: hsl(150 100% 50%);
-  border: 1px solid white;
-  color: white;
+  background: white;
+  border: 1px solid hsl(150 100% 50%);
+  color: hsl(150 100% 50%);
 }
 
 /* Media section styles */
