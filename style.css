@@ -93,6 +93,8 @@ a {
 }
 
 .instagram-media {
+  display: flex;
+  justify-content: center;
   background: #333;
   border: 0;
   border-radius: 3px;
