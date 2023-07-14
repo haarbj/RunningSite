@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  border: solid 3px hsl(210 100% 50%);
+  padding: solid 3px hsl(210 100% 50%);
   display: flex;
   position: sticky;
   top: 0px;
