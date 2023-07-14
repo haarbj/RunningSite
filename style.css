@@ -15,8 +15,10 @@ body {
 }
 
 h1 {
-  border: solid 3px white;
-  border-radius: 15px;
+  border: solid 3px hsl(210 100% 50%);
+  display: flex;
+  position: sticky;
+  top: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
