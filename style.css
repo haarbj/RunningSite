@@ -77,6 +77,11 @@ td {
   border: 1px solid #FFF;
 }
 
+/* Link Styles */
+a {
+  color: hsl(150 100% 50%);
+}
+
 /* Media section styles */
 #media {
   margin: 20px;
