@@ -17,7 +17,7 @@ body {
 h1 {
   border: solid 3px white;
   border-radius: 15px;
-  border-width: 3px;
+  padding: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
