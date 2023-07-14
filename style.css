@@ -84,17 +84,6 @@ td {
 
 /* Link Styles */
 a {
-  background: hsl(150 100% 50%);
-  color: white;
-  border: 1px solid hsl(150 100% 50%);
-  border-radius: 3px;
-  display: inline-block;
-  text-decoration: none;
-}
-
-a:hover {
-  background: white;
-  border: 1px solid hsl(150 100% 50%);
   color: hsl(150 100% 50%);
 }
 
