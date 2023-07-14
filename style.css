@@ -19,9 +19,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Header styles */
-h1, iframe, nav {
+h1, nav {
   text-align: center;
 }
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+  }
 
 /* Navigation styles */
 ul {
