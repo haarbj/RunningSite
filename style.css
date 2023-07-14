@@ -1,46 +1,34 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-/* style.css */
 
-/* Body styles */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  /* Old browsers */
   background: #141E30;
-  /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(-45deg, #35577D, #141E30);
-  color: white; /* Set text color to white */
-}
-
-h1 {
-  padding-color: hsl(210 100% 50%);
-  display: flex;
-  position: sticky;
-  top: 0px;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Impact;
+  font-family: Impact, sans-serif;
 }
 
-/* Header styles */
-h1, nav {
+h1 {
+  position: sticky;
+  top: 0;
   padding: 10px;
-  text-align: center;
+  background-color: hsl(210, 100%, 50%);
+  color: white;
 }
 
-.iframe-container {
-    display: flex;
-    justify-content: center;
-  }
+nav {
+  text-align: center;
+  padding: 10px;
+}
 
-/* Navigation styles */
 ul {
   list-style-type: none;
   margin: 0;
@@ -54,9 +42,18 @@ li {
 
 a {
   text-decoration: none;
+  background: hsl(210, 100%, 50%);
+  border: 1px solid hsl(210, 100%, 50%);
+  border-radius: 3px;
+  color: white;
+  padding: 14px;
 }
 
-/* About Me section styles */
+a:hover {
+  background: white;
+  color: hsl(210, 100%, 50%);
+}
+
 #aboutme {
   margin: 20px;
 }
@@ -76,7 +73,6 @@ img {
   height: auto;
 }
 
-/* Training section styles */
 #training {
   margin: 20px;
 }
@@ -91,27 +87,9 @@ th,
 td {
   padding: 5px;
   text-align: center;
-  border: 1px solid #FFF;
+  border: 1px solid white;
 }
 
-/* Link Styles */
-li a, pageNav {
-  background: hsl(210 100% 50%);
-  border: 1px solid hsl(210 100% 50%);
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  text-decoration: none;
-  padding: 14px;
-}
-
-li a:hover, pageNav:hover{
-  background: white;
-  border: 1px solid hsl(210 100% 50%);
-  color: hsl(210 100% 50%);
-}
-
-/* Media section styles */
 #media {
   margin: 20px;
 }
