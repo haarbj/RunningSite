@@ -89,7 +89,7 @@ td {
 }
 
 /* Link Styles */
-nav a {
+li a {
   background: hsl(210 100% 50%);
   border: 1px solid hsl(210 100% 50%);
   border-radius: 3px;
@@ -99,7 +99,7 @@ nav a {
   padding: 14px;
 }
 
-nav a:hover {
+li a:hover {
   background: white;
   border: 1px solid hsl(210 100% 50%);
   color: hsl(210 100% 50%);
